@@ -7,7 +7,7 @@ type linkTextProps = {
 };
 
 const LinkText: React.FC<linkTextProps> = ({text, link}): JSX.Element => {
-  console.log("tes")
+ 
   return (
     <View style={styles.container}>
       <Text style={styles.textStyle}>{text}</Text>
