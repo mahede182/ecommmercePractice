@@ -7,6 +7,7 @@ type linkTextProps = {
 };
 
 const LinkText: React.FC<linkTextProps> = ({text, link}): JSX.Element => {
+  console.log("tes")
   return (
     <View style={styles.container}>
       <Text style={styles.textStyle}>{text}</Text>
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     color: '#9098B1',
-    fontSize: 14
+    fontSize: 14,
   },
   linkStyle: {
     color: '#40BFFF',
