@@ -47,9 +47,8 @@ const LoginScreen: React.FC<LoginProps> = (): JSX.Element => {
           imgSource={require('../assets/social/Facebook.png')}
         />
         <View style={{alignItems: 'center', paddingVertical: 10}}>
-
-        <LinkText link="Forgot Password?" />
-        <LinkText text="Don't have an account" link="Register" />
+          <LinkText link="Forgot Password?" />
+          <LinkText text="Don't have an account" link="Register" />
         </View>
       </View>
     </View>

@@ -6,3 +6,4 @@ export {default as ExploreScreen} from './ExploreScreen';
 export {default as OrderScreen} from './OrderScreen';
 export {default as ProductScreen} from './ProductScreen';
 export {default as RegisterScreen} from './RegisterScreen';
+export {default as HomeScreen} from './HomeScreen';

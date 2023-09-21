@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1023894885663-ds578n16m99j4nkkjgc94qeee5dbchfe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1023894885663-ds578n16m99j4nkkjgc94qeee5dbchfe</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1023894885663-qvhq4hhea7l7l31hgjtnmpirl9e2eup4.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbexpa1cg2eLgsltqLtWCVNgvpzbr0ZGI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1023894885663</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lafyuecommerce</string>
+	<key>PROJECT_ID</key>
+	<string>lyufeeecommerce</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lyufeeecommerce.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1023894885663:ios:7c044b1380e0d4e51ccc2a</string>
+</dict>
+</plist>

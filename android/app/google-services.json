@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1023894885663",
+    "project_id": "lyufeeecommerce",
+    "storage_bucket": "lyufeeecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023894885663:android:096aee6a328e829d1ccc2a",
+        "android_client_info": {
+          "package_name": "com.lafyuecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023894885663-qvhq4hhea7l7l31hgjtnmpirl9e2eup4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lafyuecommerce",
+            "certificate_hash": "b869cf739e3cd7f224884c347b462865c6141b84"
+          }
+        },
+        {
+          "client_id": "1023894885663-qq4j0s1r1pn570fg706u6rl3mangcgim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCicHWsPrQS2afhGIW6TU9Rk1tn2P2NS6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023894885663-d7otmt7eag3i6fssai2o4duhs181jaum.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1023894885663-ds578n16m99j4nkkjgc94qeee5dbchfe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lafyuecommerce"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
