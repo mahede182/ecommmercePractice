@@ -1,11 +1,21 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import React from 'react';
+import {createBox, createText} from '@shopify/restyle';
+import {ReStyleTheme} from '../theme';
+
+const Box = createBox<ReStyleTheme>();
+const Text = createText<ReStyleTheme>();
 
 const CartScreen = (): JSX.Element => {
   return (
-    <View style={styles.container}>
-      <Text>CartScreen</Text>
-    </View>
+    <Box
+      flex={1}
+      bg="cardPrimaryBackground"
+      mt="xl"
+      alignItems="center"
+      justifyContent="center">
+      <Text variant="body">Hello world</Text>
+    </Box>
   );
 };
 

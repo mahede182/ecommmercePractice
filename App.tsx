@@ -8,20 +8,24 @@
 import React from 'react';
 
 import {SafeAreaView, StyleSheet, View} from 'react-native';
-import {HomeScreen} from './src/screens';
+import {CartScreen, HomeScreen} from './src/screens';
+import theme from './src/theme';
+import {ThemeProvider} from '@shopify/restyle';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView style={styles.container}>
-      {/* <LoginScreen /> */}
-      <HomeScreen />
-      {/* <RegisterScreen />
-      <CartScreen />
-      <ExploreScreen />
+    <ThemeProvider theme={theme}>
+      <SafeAreaView style={styles.container}>
+        {/* <LoginScreen /> */}
+        {/* <HomeScreen /> */}
+        {/* <RegisterScreen />*/}
+        <CartScreen />
+        {/*<ExploreScreen />
       <OrderScreen />
       <ProductScreen />
       <AccountScreen /> */}
-    </SafeAreaView>
+      </SafeAreaView>
+    </ThemeProvider>
   );
 }
 
