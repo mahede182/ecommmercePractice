@@ -7,7 +7,7 @@ import {
   View,
 } from 'react-native';
 import React from 'react';
-import {product} from '../helper/DATA';
+import {product} from '../../helper/DATA';
 const ProductCard = () => {
   return (
     <ScrollView bounces horizontal showsHorizontalScrollIndicator={false}>

@@ -12,7 +12,7 @@ import React, {useState} from 'react';
 import Swiper from 'react-native-swiper';
 import Countdown from 'react-native-countdown-component';
 import {Category, CategoryTitle, SingleCard} from '../components';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../components/Card/ProductCard';
 // type SocialBtnProps = {
 //     label: string;
 //     imgSource: ImageSourcePropType;
