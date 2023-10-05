@@ -29,10 +29,17 @@ export const textVariants = {
   },
   body: {
     fontSize: 12,
-    fontStyle:'normal',
+    fontStyle: 'normal',
     fontWeight: '400',
     letterSpacing: 0.5,
     lineHeight: 21,
+  },
+  textInputVariants: {
+    fontSize: 12,
+    fontStyle: 'normal',
+    fontWeight: '700',
+    lineHeight: '180%',
+    letterSpacing: 0.5,
   },
   defaults: {
     // We can define a default text variant here.

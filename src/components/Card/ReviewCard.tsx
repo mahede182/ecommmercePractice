@@ -26,7 +26,11 @@ const ReviewCard: React.FC = (): JSX.Element => {
       </Text>
 
       <Box>
-        <Image height='20' width='20'  source={require('../../assets/product/ProductImage3.png')} />
+        <Image
+          height="20"
+          width="20"
+          source={require('../../assets/product/ProductImage3.png')}
+        />
         {/* <Image  height={20} width={20} source={require('../../assets/product/ProductImage7.png')} />
         <Image  height={20} width={20} source={require('../../assets/product/ProductImage9.png')} /> */}
         <Text>December 10, 2016</Text>

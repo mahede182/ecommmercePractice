@@ -1,4 +1,6 @@
-export const product = [
+import {Tproduct} from './DATA.t';
+
+export const product: Tproduct[] = [
   {
     id: '0',
     image: require('../assets/product/ProductImage8.png'),
@@ -37,6 +39,7 @@ export const product = [
     title: 'FS - QUILTED MAXI CROS...',
     DiscountPrice: 29943,
     price: 53433,
+    discount: 10,
   },
   {
     id: '5',
@@ -44,6 +47,7 @@ export const product = [
     title: 'FS - Nike Air Max 270 React...',
     DiscountPrice: 29943,
     price: 53433,
+    discount: 5,
   },
   {
     id: '6',

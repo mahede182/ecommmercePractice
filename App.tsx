@@ -11,6 +11,7 @@ import {SafeAreaView, StyleSheet, View} from 'react-native';
 import {CartScreen, HomeScreen} from './src/screens';
 import theme from './src/theme';
 import {ThemeProvider} from '@shopify/restyle';
+import Notification from './src/screens/Notification';
 
 function App(): JSX.Element {
   return (
@@ -19,7 +20,7 @@ function App(): JSX.Element {
         {/* <LoginScreen /> */}
         {/* <HomeScreen /> */}
         {/* <RegisterScreen />*/}
-        <CartScreen />
+        <Notification />
         {/*<ExploreScreen />
       <OrderScreen />
       <ProductScreen />
