@@ -10,6 +10,14 @@ export type TThemeProps = {
     tablet: number;
     largeTablet: number;
   };
+  textVariants: {
+    header: IHeader;
+    subHeader: ISubHeader;
+    heroTitle: IHeroTitle;
+    button: IButton;
+    body: IBody;
+    textInputVariants: ITextInputVariants;
+  };
   textInputVariants: {
     customTextInput?: TextStyle;
     defaults?: TextStyle | any;

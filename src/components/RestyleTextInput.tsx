@@ -19,8 +19,7 @@ type InputProps = SpacingProps<ReStyleTheme> &
   TextInputProps &
   TextInput;
 
-export const RTextInput = createRestyleComponent<InputProps, ReStyleTheme>([
-  spacing,
-  backgroundColor,
-  createVariant({themeKey: 'textInputVariants'}),
-]);
+export const RestyleTextInput = createRestyleComponent<
+  InputProps,
+  ReStyleTheme
+>([spacing, backgroundColor, createVariant({themeKey: 'textInputVariants'})]);

@@ -25,7 +25,7 @@ const RButton = ({label, isLoading, ...props}: Props) => {
       alignItems="center"
       justifyContent="center"
       columnGap="s"
-      backgroundColor="buttonPrimaryBackground"
+      backgroundColor="black"
       width="90%"
       borderRadius={5}
       {...props}>

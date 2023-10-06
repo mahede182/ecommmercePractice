@@ -12,6 +12,7 @@ import {CartScreen, HomeScreen} from './src/screens';
 import theme from './src/theme';
 import {ThemeProvider} from '@shopify/restyle';
 import Notification from './src/screens/Notification';
+import FilterSearch from './src/components/Button/FilterSearch';
 
 function App(): JSX.Element {
   return (
@@ -20,7 +21,8 @@ function App(): JSX.Element {
         {/* <LoginScreen /> */}
         {/* <HomeScreen /> */}
         {/* <RegisterScreen />*/}
-        <Notification />
+        {/* <Notification /> */}
+        <FilterSearch />
         {/*<ExploreScreen />
       <OrderScreen />
       <ProductScreen />

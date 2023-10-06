@@ -3,6 +3,7 @@ import {createTheme} from '@shopify/restyle';
 //import {color} from './colors';
 import {spacing} from './spacing';
 import {palette} from './palette';
+import {textVariants} from './textVariants';
 import {TThemeProps} from './type';
 
 const theme = createTheme<TThemeProps>({
@@ -17,9 +18,12 @@ const theme = createTheme<TThemeProps>({
     tablet: 768,
     largeTablet: 1024,
   },
+  textVariants: {
+    ...textVariants,
+  },
   textInputVariants: {
     defaults: {
-      height: 48,
+      height: 36,
       fontSize: 12,
       borderRadius: 5,
       borderWidth: 1,
@@ -30,4 +34,6 @@ const theme = createTheme<TThemeProps>({
 });
 
 export type ReStyleTheme = typeof theme;
+type textVariants = typeof theme.textVariants;
+export type TTextVariants = keyof textVariants;
 export default theme;
