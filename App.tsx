@@ -8,7 +8,7 @@
 import React from 'react';
 
 import {SafeAreaView, StyleSheet, View} from 'react-native';
-import {CartScreen, HomeScreen} from './src/screens';
+import {CartScreen, HomeScreen, ProductScreen} from './src/screens';
 import theme from './src/theme';
 import {ThemeProvider} from '@shopify/restyle';
 import Notification from './src/screens/Notification';
@@ -22,7 +22,7 @@ function App(): JSX.Element {
         {/* <HomeScreen /> */}
         {/* <RegisterScreen />*/}
         {/* <Notification /> */}
-        <FilterSearch />
+        <ProductScreen />
         {/*<ExploreScreen />
       <OrderScreen />
       <ProductScreen />
