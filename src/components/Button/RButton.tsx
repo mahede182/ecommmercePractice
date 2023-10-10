@@ -24,12 +24,11 @@ const RButton = ({label, isLoading, ...props}: Props) => {
       flexDirection="row"
       alignItems="center"
       justifyContent="center"
-      columnGap="s"
-      backgroundColor="black"
+      backgroundColor={props.bg}
       width="90%"
       borderRadius={5}
       {...props}>
-      <Text variant="button" color="headerColor" p="m">
+      <Text variant="button" color={props.color} p="s">
         {label}
       </Text>
       {/* {isLoading ? <ActivityIndicator color="red" /> : null} */}

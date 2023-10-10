@@ -2,7 +2,7 @@ export const textVariants = {
   header: {
     fontSize: 16,
     fontWeight: '700',
-    lineHeight: '150%',
+    lineHeight: 21,
     letterSpacing: 0.5,
     fontStyle: 'normal',
   },
@@ -10,7 +10,7 @@ export const textVariants = {
     fontSize: 14,
     fontStyle: 'normal',
     fontWeight: '700',
-    lineHeight: '150%',
+    lineHeight: 21,
     letterSpacing: 0.5,
   },
   heroTitle: {
@@ -24,7 +24,7 @@ export const textVariants = {
     fontSize: 14,
     fontStyle: 'normal',
     fontWeight: '700',
-    lineHeight: '180%',
+    lineHeight: 21,
     letterSpacing: 0.5,
   },
   body: {
@@ -38,7 +38,7 @@ export const textVariants = {
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: '700',
-    lineHeight: '180%',
+    lineHeight: 21,
     letterSpacing: 0.5,
   },
   defaults: {

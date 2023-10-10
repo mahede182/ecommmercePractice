@@ -12,7 +12,7 @@ import ReviewCard from '../components/Card/ReviewCard';
 const Box = createBox<ReStyleTheme>();
 const Text = createText<ReStyleTheme>();
 
-const CartScreen = (): JSX.Element => {
+const CartScreen: React.FC = (): JSX.Element => {
   return (
     <ScrollView>
       <Box flex={1} mt="xl">

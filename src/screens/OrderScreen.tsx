@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const OrderScreen = (): JSX.Element => {
+const OrderScreen: React.FC = (): JSX.Element => {
   return (
     <View style={styles.container}>
       <Text>OrderScreen</Text>
