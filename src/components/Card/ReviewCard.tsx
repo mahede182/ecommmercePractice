@@ -17,7 +17,6 @@ const ReviewCard: React.FC = (): JSX.Element => {
           <Star />
         </Box>
       </Box>
-
       <Text>
         air max are always very comfortable fit, clean and just perfect in every
         way. just the box was too small and scrunched the sneakers up a little
