@@ -17,7 +17,7 @@ export const textVariants = {
     fontSize: 24,
     fontStyle: 'normal',
     fontWeight: '700',
-    lineHeight: '150%',
+    lineHeight: 30,
     letterSpacing: 0.5,
   },
   button: {
@@ -39,6 +39,20 @@ export const textVariants = {
     fontStyle: 'normal',
     fontWeight: '700',
     lineHeight: 21,
+    letterSpacing: 0.5,
+  },
+  cardNormal: {
+    fontSize: 10,
+    fontStyle: 'normal',
+    fontWeight: '400',
+    lineHeight: 15,
+    letterSpacing: 0.5,
+  },
+  cardBold: {
+    fontSize: 10,
+    fontStyle: 'normal',
+    fontWeight: '700',
+    lineHeight: 15,
     letterSpacing: 0.5,
   },
   defaults: {

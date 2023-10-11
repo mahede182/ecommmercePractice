@@ -2,9 +2,9 @@ import {Alert, Image, ScrollView, StyleSheet} from 'react-native';
 import React from 'react';
 import {createBox, createText} from '@shopify/restyle';
 import {ReStyleTheme} from '../theme';
-import RButton from '../components/Button/RButton';
+import RButton from '../components/RButton';
 import SwiperHero from '../components/Hero/SwiperHero';
-import {Star} from '../components';
+import {RestyleButton, Star} from '../components';
 import SizeVariation from '../components/Star/SizeVariation';
 import LinkText from '../components/Button/LinkText';
 import ReviewCard from '../components/Card/ReviewCard';
@@ -87,7 +87,11 @@ const CartScreen: React.FC = (): JSX.Element => {
           <Star />
         </Box>
         <ReviewCard />
-        <RButton label="restyle button" isLoading={true} activeOpacity={0.2} />
+        <RestyleButton
+          label="restyle button"
+          isLoading={true}
+          activeOpacity={0.2}
+        />
       </Box>
     </ScrollView>
   );

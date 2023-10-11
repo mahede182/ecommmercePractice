@@ -17,6 +17,8 @@ export type TThemeProps = {
     button: IButton;
     body: IBody;
     textInputVariants: ITextInputVariants;
+    cardNormal: ICardNormal;
+    cardBold: ICardBold;
   };
   textInputVariants: {
     customTextInput?: TextStyle;
@@ -105,4 +107,19 @@ export interface IBoxVariants {
     shadowRadius: number;
     elevation: number;
   };
+}
+
+export interface ICardNormal {
+  fontSize: number;
+  fontStyle: string;
+  fontWeight: string;
+  lineHeight: number;
+  letterSpacing: number;
+}
+export interface ICardBold {
+  fontSize: number;
+  fontStyle: string;
+  fontWeight: string;
+  lineHeight: number;
+  letterSpacing: number;
 }

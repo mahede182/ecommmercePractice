@@ -9,12 +9,13 @@ import {
 import React from 'react';
 import {ReStyleBox} from '../RestyleBox';
 import {ReStyleText} from '../RestyleTextInput';
+import {useNavigation} from '@react-navigation/native';
 
 type headerType = {
   title: string;
   icon?: boolean;
   iconSource?: ImageSourcePropType;
-  handlePress?: void;
+  handlePress?: () => void;
 };
 
 const CustomHeader: React.FC<headerType> = ({
@@ -23,6 +24,8 @@ const CustomHeader: React.FC<headerType> = ({
   iconSource,
   handlePress,
 }: headerType) => {
+  const navigation = useNavigation();
+  const goBack = () => navigation.goBack();
   return (
     <ReStyleBox
       borderBottomColor={'natural'}
@@ -39,7 +42,7 @@ const CustomHeader: React.FC<headerType> = ({
           flexDirection="row"
           gap={'m'}
           alignItems="center">
-          <Pressable>
+          <Pressable onPress={goBack}>
             <Image
               style={styles.imgStyle}
               source={require('../../assets/icon/Back.png')}

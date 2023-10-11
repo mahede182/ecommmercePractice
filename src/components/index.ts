@@ -7,3 +7,7 @@ export {default as SingleCard} from './Button/SingleCard';
 export {default as Star} from './Star/Star';
 export {default as AddressCard} from './Card/AdreessCard';
 export {default as CustomLabel} from './CustomHeader/CustomLabel';
+export {default as PaymentOption} from './Payment/PaymentOption';
+export {default as CustomHeader} from './CustomHeader/CustomHeader';
+export {default as PayCard} from './Payment/PayCard';
+export {default as RestyleButton} from './RestyleButton';

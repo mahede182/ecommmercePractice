@@ -6,8 +6,9 @@ import {RTextInput} from '../components/RestyleTextInput';
 import {offerData} from '../helper/NotifiData';
 import {TofferData} from '../helper/NotifiData.t';
 import {ReStyleBox} from '../components/RestyleBox';
-import { ReStyleButton } from '../components/RestyleBtn';
-import RButton from '../components/Button/RButton';
+import {ReStyleButton} from '../components/RestyleBtn';
+import RButton from '../components/RButton';
+import {RestyleButton} from '../components';
 const Text = createText<ReStyleTheme>();
 
 const Notification: React.FC = (): JSX.Element => {
@@ -26,7 +27,7 @@ const Notification: React.FC = (): JSX.Element => {
           );
         })}
         <RTextInput placeholder="hello" />
-        <RButton label='Label'/>
+        <RestyleButton label="Label" />
       </ReStyleBox>
     </ReStyleBox>
   );

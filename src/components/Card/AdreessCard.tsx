@@ -1,8 +1,8 @@
 import {View, Text, Image} from 'react-native';
 import React from 'react';
-import RButton from '../Button/RButton';
 import {ReStyleBox} from '../RestyleBox';
 import {RestyleTxt} from '../RestyleTxt';
+import RestyleButton from '../RestyleButton';
 
 type Props = {
   label: string;
@@ -33,7 +33,7 @@ const AdreessCard: React.FC<Props> = ({
       </RestyleTxt>
 
       <ReStyleBox flexDirection={'row'} alignItems={'center'}>
-        <RButton
+        <RestyleButton
           label="Edit"
           width={75}
           height={57}

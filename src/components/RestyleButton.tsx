@@ -3,7 +3,7 @@ import React from 'react';
 import {TouchableOpacity, TouchableOpacityProps} from 'react-native';
 
 //import Text from './Text';
-import theme, {ReStyleTheme} from '../../theme';
+import theme, {ReStyleTheme} from '../theme';
 
 const Text = createText<ReStyleTheme>();
 const BaseButton = createBox<ReStyleTheme, TouchableOpacityProps>(
@@ -16,7 +16,7 @@ type Props = React.ComponentProps<typeof BaseButton> &
     isLoading?: boolean;
   };
 
-const RButton = ({label, isLoading, ...props}: Props) => {
+const RestyleButton: React.FC = ({label, isLoading, ...props}: Props) => {
   const theme = useTheme<ReStyleTheme>();
 
   return (
@@ -27,7 +27,8 @@ const RButton = ({label, isLoading, ...props}: Props) => {
       backgroundColor={props.bg}
       width="90%"
       borderRadius={5}
-      {...props}>
+      {...props}
+      >
       <Text variant="button" color={props.color} p="s">
         {label}
       </Text>
@@ -35,4 +36,4 @@ const RButton = ({label, isLoading, ...props}: Props) => {
     </BaseButton>
   );
 };
-export default RButton;
+export default RestyleButton;

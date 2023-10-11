@@ -1,10 +1,12 @@
 import React from 'react';
 import {TransitionPresets, createStackNavigator} from '@react-navigation/stack';
 import {
+  CardScreen,
   CartScreen,
   ExploreScreen,
   HomeScreen,
   OrderScreen,
+  PaymentScreen,
   ProductScreen,
 } from '../screens';
 import Notification from '../screens/Notification';
@@ -14,6 +16,7 @@ export default function HomeStack() {
   const Stack = createStackNavigator<HomeStackParamList>();
   return (
     <Stack.Navigator
+      initialRouteName="payment"
       screenOptions={{
         headerShown: false,
         ...TransitionPresets.SlideFromRightIOS,
@@ -26,6 +29,8 @@ export default function HomeStack() {
       <Stack.Screen name="explore" component={ExploreScreen} />
       <Stack.Screen name="notification" component={Notification} />
       <Stack.Screen name="order" component={OrderScreen} />
+      <Stack.Screen name="payment" component={PaymentScreen} />
+      <Stack.Screen name="card" component={CardScreen} />
       <Stack.Screen name="product" component={ProductScreen} />
     </Stack.Navigator>
   );

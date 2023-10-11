@@ -2,8 +2,7 @@ import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {ReStyleBox} from '../components/RestyleBox';
 import {RestyleTxt} from '../components/RestyleTxt';
-import RButton from '../components/Button/RButton';
-import {AddressCard} from '../components';
+import {AddressCard, RestyleButton} from '../components';
 import {RestyleTextInput} from '../components/RestyleTextInput';
 import CustomHeader from '../components/CustomHeader/CustomHeader';
 import Address from '../components/Datails/Address/Address';
@@ -23,17 +22,10 @@ const AddressScreen: React.FC = (): JSX.Element => {
         exerpt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, at?"
         phone="+99 1234567890"
       />
-      <RButton
-        marginTop={'xl'}
-        label="Add Address"
-        width={340}
-        height={55}
-        color={'white'}
-        bg={'bluePrimary'}
-      /> */}
+      */}
       <ScrollView>
         <Addresses />
-        <RButton
+        <RestyleButton
           marginTop={'xl'}
           label="Add Address"
           width={340}

@@ -10,6 +10,8 @@ type HomeStackParamList = {
   order: undefined;
   product: undefined;
   order: undefined;
+  payment: undefined;
+  card: undefined;
 };
 
 type HomeBottomTabParamList = {
