@@ -22,7 +22,7 @@ export default LinkText;
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    padding: 5,
+    justifyContent: 'space-between',
   },
   textStyle: {
     color: '#9098B1',

@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import React from 'react';
 import {SocialButton, Devider} from '../components';
-import LinkText from '../components/LinkText';
+import LinkText from '../components/Button/LinkText';
 
 export type LoginProps = {
   name?: string;

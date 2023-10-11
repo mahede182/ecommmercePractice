@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const AccountScreen = (): JSX.Element => {
+const AccountScreen: React.FC = (): JSX.Element => {
   return (
     <View style={styles.container}>
       <Text>AccountScreen</Text>

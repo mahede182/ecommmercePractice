@@ -8,23 +8,35 @@
 import React from 'react';
 
 import {SafeAreaView, StyleSheet, View} from 'react-native';
-import {CartScreen, HomeScreen} from './src/screens';
+import {
+  AddressScreen,
+  CartScreen,
+  HomeScreen,
+  ProductScreen,
+} from './src/screens';
 import theme from './src/theme';
 import {ThemeProvider} from '@shopify/restyle';
+import Notification from './src/screens/Notification';
+import FilterSearch from './src/components/Button/FilterSearch';
+import RootStack from './src/navigation/RootStack';
+import HomeStack from './src/navigation/HomeStack';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {NavigationContainer} from '@react-navigation/native';
 
 function App(): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
-      <SafeAreaView style={styles.container}>
-        {/* <LoginScreen /> */}
-        {/* <HomeScreen /> */}
-        {/* <RegisterScreen />*/}
-        <CartScreen />
-        {/*<ExploreScreen />
+      {/* <LoginScreen /> */}
+      {/* <HomeScreen /> */}
+      {/* <RegisterScreen />*/}
+      {/* <Notification /> */}
+      {/* <AddressScreen /> */}
+      {/*<ExploreScreen />
       <OrderScreen />
       <ProductScreen />
       <AccountScreen /> */}
-      </SafeAreaView>
+
+      <RootStack />
     </ThemeProvider>
   );
 }
